@@ -1,0 +1,39 @@
+using System;
+
+namespace Problem1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num_1 = 5;
+            int num_2 = 10;
+            int num_3 = num_1 + num_2;
+
+
+            Console.Write("Please type your answer here:");
+            Console.WriteLine($"my age is {num_3}");
+
+            string name = "";
+
+            Console.Write("person's name here:");
+            Console.Read();
+            Console.ReadKey();
+
+            double per_earn = 8.25;
+            double fed_tax = .12;
+            double st_tax = .04;
+            double hr_wages = 8;
+
+            double pay_check = hr_wages * per_earn * fed_tax * st_tax;
+
+            Console.Write(pay_check);
+            Console.ReadLine();
+            Console.ReadKey();
+
+
+        
+
+        }   
+    }
+}
